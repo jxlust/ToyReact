@@ -1,11 +1,11 @@
 module.exports = {
     entry: {
         // main: './main.js'
-        main: './src/game.js'
+        main: './src/game.jsx'
     },
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.js|.jsx$/,
             use: {
                 loader: 'babel-loader',
                 options: {
